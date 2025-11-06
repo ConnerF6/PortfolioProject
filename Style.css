@@ -11,6 +11,12 @@ html{
     height: 100%;
 }
 
+.site-footer
+{
+    margin-top: 10px;;
+    margin-left: 21%;
+}
+
 .Hero-Calling-Card
 {
     display: flex;
