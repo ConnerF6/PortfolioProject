@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.Hero-Calling-Card
+{
+    display: flex;
+}
+
+.hero-text
+{
+    padding: 2px;
+}
+.tagline
+{
+    max-width: 540px;
+}
+
+.Combined-text
+{
+    display: flex;
+}
+
+.about-grid
+{
+    max-width: 600px;
+}
+
+.SkillsHeader
+{
+    margin-left: 40px;
+}
+
+.pill-list
+{
+    margin-left: 60px;
+}
+
+.spaced_list
+{
+    margin-left: 25px;
+}
+
+.hero-media
+{
+    margin-top: 5px;
+}
+
+.pill
+{
+    display: flex;
+    padding: 2px;
+}
+
+#about
+{
+    margin-top: 10px;
+}
+
+#projects
+{
+    margin-top: 20px;
+}
+
+.grid
+{
+    display: flex;
+    gap: 30px;
+}
+
+.cardDesc
+{
+    max-width: 550px;
+}
+
+body{
+    margin-top: 0 !important;
+    padding: 0;
+    height: 100%;
+}
+
+body > *:first-child {
+  margin-top: 0 !important;
+}
+
+#contact
+{
+    margin-top: 100px;
+}
+
+.SideScreen
+{
+    margin: 0;
+    padding: 0;
+    width: 20%;
+    background-color: tomato;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+.MainContent
+{
+    margin-left: 21%;
+}
+
+#top, body, aside, header, nav, a, body, ul{
+    padding: 0;
+    margin: 0;
+}
+
+
+#top > aside > header{
+    padding: 0;
+    margin: 0;
+    margin-top: 0;
+}
+
+.logo
+{
+    margin: 0;
+    padding: 0;
+}
+
+aside{
+    padding: -21;
+    margin-left: -21;
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- <meta charset="UTF-8"> -->
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>Conner - Mini Portfolio</title>
+    <link rel="stylesheet" href="Style.css">
+    <meta name="description" content="Conner Farnsworth's Portfolio for software stuffs">
+</head>
+
+<body id="top">
+
+    <aside class="SideScreen">
+    <header class="site-header">
+        <nav class="nav container" aria-label="Primary">
+        <a class="logo" href="#top">Conner Farnsworth</a>
+        <ul class="nav-list">
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact" class="btn">Contact</a></li>
+        </ul>
+        </nav>
+        <a class="btn" href="#projects">See my work</a>
+    <section id="contact" class="container">
+      <header><h2>Contact</h2></header>
+      <address>
+        <p>Email: <a href="mailto:[your-email]">Rediceangelus@Gmail.com</a></p>
+        <p>GitHub: <a href="https://github.com/[your-username]" target="_blank" rel="noopener">ConnerF6</a></p>
+      </address>
+    </section>
+
+  </header>
+    </aside >
+
+    <section class="MainContent">
+    <main id="content">
+    <div class="Hero-Calling-Card">
+        <div class="hero-media">
+            <img src="images/headshot.jpg" alt="Portrait of Conner" width="200" height="175">
+        </div>
+        
+        <section id="hero" class="hero container">
+        <div class="hero-text">
+            <h1>Conner Farnsworth</h1>
+            <p class="tagline">I am a student at the Mahoning County Career and Technological Center, and I like making games and other software that is interactive and can bring the user joy.</p>
+        </div>
+        </section>
+    </div>
+
+    <div class="Combined-text">
+        <section id="about" class="container">
+        <header><h2>About</h2></header>
+        <article class="about-grid">
+            <p>I like roguelike and bullet-hell games as my two favorite genres. I hope to be able to make content that I'm proud of, even as game development will likely just be a hobby instead of a full time career. I currently mostly use Godot for game development, however I have learned how to use Lua and GML.</p>
+            
+        </article>
+        </section>
+        <div>
+            <h3 class="SkillsHeader">Skills</h3>
+            <ul class="pill-list">
+                <div class="pill"><li>HTML</li><li class="spaced_list">CSS</li></div>
+                <div class="pill"><li>JavaScript</li><li class="spaced_list">Python</li></div>
+                <div class="pill"><li>C#</li><li class="spaced_list">GdScript</li></div>
+            </ul>
+        </div>
+    </div>
+
+    <section id="projects" class="container">
+      <header><h2>Projects</h2></header>
+      <div class="grid">
+        <article class="card">
+            <h3>Project One: The Check Project</h3>
+          <img src=".\Images\CheckProj.png" alt="Screenshot of Project 1" width="550" height="320">
+          <div class="card-body">
+            <p class="cardDesc">This project was a roguelike version of chess, including deckbuilder elements. You would go from battle to battle, each time you win you continue forward, but if you fail then you get reset to the beginning. I was the main code developer for this project, and I managed to do all of the logic and basically setting everything up in the Godot software by myself. I did however have the support of friends, who had made the great piece models, and the 'tree' model.</p>
+            <a class="btn-outline" href="https://github.com/[your-username]/[repo1]" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </article>
+
+        <article class="card">
+        <h3>Project Two: MedIgloo</h3>
+          <img src=".\Images\MedIgloo.png" alt="Screenshot of Project 2" width="550" height="320">
+          <div class="card-body">
+            <p class="cardDesc">This website is a student medical EMR website that I made for the congressional app challenge. I was the one who had developed all of the SQL and backend. I learned a lot from working on this site, and I think that it'll help me out a lot in future projects!</p>
+            <a class="btn-outline" href="https://github.com/[your-username]/[repo2]" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  </section>
+
+  <footer class="site-footer">
+    <small>© <span id="year"></span> Conner Farnsworth. Built with semantic HTML & external CSS.</small>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
